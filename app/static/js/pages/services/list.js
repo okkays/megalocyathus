@@ -5,8 +5,8 @@
     var element = `<li>
       <p class="title">
         <a href="${service.route}">${service.name}</a>
+        <span class="url">(${service.url})</span>
       </p>
-      <p class="description">${service.description}</p>
     </li>`
     return $(element)
   }
