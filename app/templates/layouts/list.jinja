@@ -1,0 +1,10 @@
+{% extends 'layouts/main.jinja' %}
+
+{% block javascripts %}
+  {{ super() }}
+  <script src="{{url_for('static', filename='js/services/list.js')}}"></script>
+{% endblock %}
+
+{% block body %}
+  <ul id="main"></ul>
+{% endblock %}

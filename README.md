@@ -30,7 +30,7 @@ You will also be able to reach your application at megalocyathus/service_machine
 ## Dependencies
 
 The dependencies section lists what package manager applications must be installed.
-Any dependencies not managed by the package manager should be installed with
+Those prefixed with ! will be piped to bash relative to the project's directory
 
 ## Exec
 
