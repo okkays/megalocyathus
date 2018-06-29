@@ -3,7 +3,7 @@ services.list = function(controller) {
   var service = {};
 
   service.add_route = function(obj) {
-    route = `/${controller}/${obj.id}`
+    route = `/__/${controller}/${obj.id}`
     return $.extend({'route': route}, obj);
   }
 
