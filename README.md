@@ -44,6 +44,8 @@ Megalocyathus requires a few config details of its own:
 
 ```json
 {
-  "install_command": "pacman -Syu && pacman -S " // Dependency names will be appended to this.
+  "install_command": "pacman -Syu && pacman -S "
 }
 ```
+
+`install_command`: Dependency names will be appended to this.
