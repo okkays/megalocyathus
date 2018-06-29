@@ -15,9 +15,9 @@ The configuration file is JSON, and consists of a few sections as possible:
 
 ```json
 {
-  "services": ["shortlink_name", ...]
+  "services": ["shortlink_name", "..."],
   "dependencies": ["python", "!wget some_other_dep"],
-  "exec": ["./start.sh --port={service_machine_name}", ...],
+  "exec": ["./start.sh --port={service_machine_name}", "..."],
 }
 ```
 
